@@ -1,7 +1,6 @@
 /********** Template CSS **********/
 :root {
-    /* --primary: #348E38; */
-    --primary: #4649FF;
+    --primary: #348E38;
     --secondary: #525368;
     --light: #E8F5E9;
     --dark: #0F4229;
@@ -63,7 +62,11 @@ h6,
 
 .btn-primary,
 .btn-outline-primary:hover {
-    color: var(--light);
+    color: #FFFFDE;
+}
+
+.btn-primary:hover{
+    color: #FFFFDE;
 }
 
 .btn-square {
@@ -106,7 +109,7 @@ h6,
 .navbar .navbar-nav .nav-link {
     margin-right: 35px;
     padding: 25px 0;
-    color: var(--dark);
+    color: #4C3575;
     font-size: 18px;
     font-weight: 500;
     outline: none;
@@ -114,7 +117,7 @@ h6,
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color:darkgoldenrod;
 }
 
 .navbar .dropdown-toggle::after {
@@ -181,8 +184,9 @@ h6,
     width: 3rem;
     height: 3rem;
     border-radius: 3rem;
-    background-color: var(--primary);
-    border: 10px solid var(--primary);
+    background-color: #537EC5;
+    border: 10px solid #537EC5;
+
 }
 
 @media (max-width: 768px) {
@@ -302,7 +306,7 @@ h6,
     height: 31px;
     display: inline-flex;
     align-items: center;
-    color: var(--dark);
+    color: #4C3575;
     background: var(--light);
     white-space: nowrap;
     overflow: hidden;
@@ -349,7 +353,7 @@ h6,
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(15, 66, 41, .6);
+    background: rgba(140, 217, 237, 0.5);
     transition: .5s;
 }
 
@@ -467,8 +471,8 @@ h6,
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--primary);
-    background: var(--light);
+    color: #F8F9D7;
+    background: #2D4263;
     border-radius: 4px;
     font-size: 22px;
     transition: .5s;
@@ -476,8 +480,8 @@ h6,
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
-    background: var(--primary);
-    color: var(--light);
+    background: #816797;
+    color: #FFFFDE;
 }
 
 
@@ -502,14 +506,14 @@ h6,
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--primary);
+    color:aquamarine;
     letter-spacing: 1px;
     box-shadow: none;
 }
 
 .copyright {
     color: var(--light);
-    background: #072A19;
+    background: #537EC5;
 }
 
 .copyright a {
@@ -519,3 +523,8 @@ h6,
 .copyright a:hover {
     color: var(--primary);
 }
+
+/* .fa  {
+    background-color: gold;
+} */
+
