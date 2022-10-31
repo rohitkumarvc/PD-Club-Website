@@ -474,7 +474,7 @@ h6,
     width: 45px;
     height: 45px;
     display: flex;
-    align-items: center;
+    align-items:center;
     justify-content: center;
     color: #F8F9D7;
     background: #2D4263;
@@ -529,11 +529,7 @@ h6,
     color: var(--primary);
 }
 
-/* .fa  {
-    background-color: gold;
-} */
-
-.col-lg-5{
+.marg-box{
     margin: 5px;
 }
 
@@ -559,5 +555,30 @@ h6,
 
 
 
+.iframe-container{
+    overflow:hidden;
+    padding-bottom:55%;
+    position:relative;
+    height:0;
+    width: 100%;
+    
+    }
+    .iframe-container iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    } 
 
+/* .text-center{
+    text-align: center;
+}
+
+.all-center{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+} */
 
