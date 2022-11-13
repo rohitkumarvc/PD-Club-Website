@@ -113,7 +113,7 @@ h6,
 
 .navbar .navbar-brand,
 .navbar a.btn {
-    height: 80px
+    height: 80px;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -389,7 +389,7 @@ h6,
     align-items: center;
     justify-content: center;
     transition: .5s;
-    z-index: 3;
+    z-index: 1;
     opacity: 0;
 }
 
@@ -463,7 +463,6 @@ h6,
 
 
 /*** Testimonial ***/
-
 .testimonial-carousel .owl-item img {
     width: 100px;
     height: 100px;
@@ -589,3 +588,32 @@ h6,
     align-content: center;
 } */
 
+.icon-hover:hover{
+    color: rgb(185, 33, 147);;
+
+}
+
+.logo{
+    position: relative;
+    height:60px;
+    margin-right: 10px;
+    /* left: 0px; */
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap: 5px;
+    
+}
+
+.clientele-img{
+    width: 100px;
+    height: 100px;
+}
+
+.box{
+    align-items:center;
+    justify-content: center;
+    text-align: center;
+}
