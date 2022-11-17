@@ -630,3 +630,35 @@ h6,
 .blogs_box_size{
     height: 256.6px;
 }
+
+.blogs-readmore{
+    position: absolute;
+    bottom: 20px;
+}
+
+
+@media(max-width:2000px){
+    .short-text{display: none;}
+    .full-text{display: inline;}
+}
+
+@media(max-width:1352px){
+    .short-text{display: inline;}
+    .full-text{display: none;}
+}
+
+@media(max-width:2000px){
+    .small-team{display: none;}
+    .large-team{display: inline;}
+}
+
+@media(max-width:1396px){
+    .small-team{display: inline;}
+    .large-team{display: none;}
+}
+
+@media(max-width:991px){
+    .small-team{display: none;}
+    .large-team{display: inline;}
+}
+
