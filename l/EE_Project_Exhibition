@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EE Project Exhibiton</title>
+</head>
+<body>
+    <p>Redirecting you to the form...</p>
+</body>
+
+    <script>
+        location.replace("https://forms.gle/BuK3Y4V7NJrxK5Gm9")
+    </script>
+</html>
